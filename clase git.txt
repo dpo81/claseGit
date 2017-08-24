@@ -91,3 +91,54 @@ nothing to commit, working directory clean
 android@lslutnfra18:~/Desktop/clase2$ ^C
 android@lslutnfra18:~/Desktop/clase2$ 
 ==============================================
+Para ver historial de cambios:
+android@lslutnfra18:~/Desktop/clase2$ git log
+commit 45634a692badd5d11096c212cc0c18902c0a2b6e
+Author: dpo81 <oriolo_pascual@yahoo.com.ar>
+Date:   Thu Aug 24 20:10:37 2017 -0300
+
+    tercer commit
+
+commit 66626cd5c68728b9aeb0406f19bdf1e30e0f71ac
+Author: dpo81 <oriolo_pascual@yahoo.com.ar>
+Date:   Thu Aug 24 20:01:13 2017 -0300
+
+    segundo commit bis
+
+commit 79e6c3e9127e1716f37b8cc9fe3387a1e7d45187
+Author: dpo81 <oriolo_pascual@yahoo.com.ar>
+Date:   Thu Aug 24 19:58:02 2017 -0300
+
+    segundo commit
+android@lslutnfra18:~/Desktop/clase2$ 
+=============================================
+Para ver cambios realizados:
+android@lslutnfra18:~/Desktop/clase2$ git show 45634a692bad
+commit 45634a692badd5d11096c212cc0c18902c0a2b6e
+Author: dpo81 <oriolo_pascual@yahoo.com.ar>
+Date:   Thu Aug 24 20:10:37 2017 -0300
+
+    tercer commit
+
+diff --git a/clase git.txt b/clase git.txt
+index bea1465..93c90f5 100644
+--- a/clase git.txt     
++++ b/clase git.txt     
+@@ -71,4 +71,23 @@ android@lslutnfra18:~/Desktop/clase2$ git config --global use
+ android@lslutnfra18:~/Desktop/clase2$ git config --global user.name "dpo81"
+ android@lslutnfra18:~/Desktop/clase2$ ^C
+ android@lslutnfra18:~/Desktop/clase2$ 
+-==========================================
+\ No newline at end of file
++==========================================
++probamos otra vez
++=======================================
++android@lslutnfra18:~/Desktop/clase2$ git add clase\ git.txt 
++android@lslutnfra18:~/Desktop/clase2$ git status
++On branch master
++Changes to be committed:
+:
+=========================================
+Para salir del git show: "Q"
+===================================
+
