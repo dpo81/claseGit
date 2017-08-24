@@ -72,3 +72,22 @@ android@lslutnfra18:~/Desktop/clase2$ git config --global user.name "dpo81"
 android@lslutnfra18:~/Desktop/clase2$ ^C
 android@lslutnfra18:~/Desktop/clase2$ 
 ==========================================
+probamos otra vez
+=======================================
+android@lslutnfra18:~/Desktop/clase2$ git add clase\ git.txt 
+android@lslutnfra18:~/Desktop/clase2$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   clase git.txt
+
+android@lslutnfra18:~/Desktop/clase2$ git commit -m "segundo commit bis"
+[master 66626cd] segundo commit bis
+ 1 file changed, 51 insertions(+), 1 deletion(-)
+android@lslutnfra18:~/Desktop/clase2$ git status
+On branch master
+nothing to commit, working directory clean
+android@lslutnfra18:~/Desktop/clase2$ ^C
+android@lslutnfra18:~/Desktop/clase2$ 
+==============================================
