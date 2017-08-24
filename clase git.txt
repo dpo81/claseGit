@@ -1,0 +1,24 @@
+android@lslutnfra18:~/Desktop/clase2$ git init
+Initialized empty Git repository in /home/android/Desktop/clase2/.git/
+android@lslutnfra18:~/Desktop/clase2$ ls -la
+total 12
+drwxrwxr-x 3 android android 4096 ago 24 19:39 .
+drwxr-xr-x 3 android android 4096 ago 24 19:25 ..
+drwxrwxr-x 7 android android 4096 ago 24 19:39 .git
+
+Git init:
+// con esto creamos un repositorio vacío
+// genera el repositorio, crea la carpeta .git que es la que tiene toda la info sobre el repositorio
+
+android@lslutnfra18:~/Desktop/clase2$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	clase git.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+android@lslutnfra18:~/Desktop/clase2$ 
